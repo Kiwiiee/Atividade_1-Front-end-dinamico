@@ -1,0 +1,60 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+div{
+    background-color: white;
+    width: 85vw;
+    margin-top: 5vh;
+    box-shadow: 10px 5px 5px rgba(124, 96, 45, 0.07);
+}
+
+#primeiro{
+    margin-top: 0;
+}
+
+.info {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-right: 2vw;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+#credito , #debito{
+    display: none;
+}
+
+#credito.active, #debito.active{
+    display: initial;
+}
+
+button{
+    margin-top: 3vh;
+}
+
+
+input[type="number"]{
+    width: 2vw;
+}
+
+h2{
+    margin-top: 0;
+}
+
+section{
+    margin-top: 2vh;
+    
+}
