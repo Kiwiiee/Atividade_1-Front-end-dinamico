@@ -8,10 +8,16 @@ body{
     height: 100vh;
 }
 
+form{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+}
+
 div{
     background-color: white;
-    width: 85vw;
-    margin-top: 5vh;
     box-shadow: 10px 5px 5px rgba(124, 96, 45, 0.07);
 }
 
@@ -29,8 +35,9 @@ div{
 
 h1 {
     text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: normal;
+    font-weight: bolder;
+    font-size: 40px;
+
 }
 
 #credito , #debito{
@@ -40,6 +47,13 @@ h1 {
 #credito.active, #debito.active{
     display: initial;
 }
+
+#pedido , #pagamento , #credito , #debito{
+    width: 85vw;
+    margin-top: 5vh;
+
+}
+
 
 button{
     margin-top: 3vh;
